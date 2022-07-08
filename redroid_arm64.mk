@@ -15,14 +15,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-$(call inherit-product, $(LOCAL_PATH)/redroid.mk)
+$(call inherit-product, $(LOCAL_PATH)/trustlydroid.mk)
 $(call inherit-product, $(LOCAL_PATH)/redroid_arm64/device.mk)
 
 # overrides
-PRODUCT_NAME := redroid_arm64
-PRODUCT_DEVICE := redroid_arm64
-PRODUCT_BRAND := redroid
-PRODUCT_MODEL := redroid11_arm64
+PRODUCT_NAME := trustlydroid_arm64
+PRODUCT_DEVICE := trustlydroid_arm64
+PRODUCT_BRAND := trustlydroid
+PRODUCT_MODEL := trustlydroid11_arm64
 
 DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 

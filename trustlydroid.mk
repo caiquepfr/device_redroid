@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MANUFACTURER := redroid
+PRODUCT_MANUFACTURER := trustlydroid
 
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -43,7 +43,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 AUDIOSERVER_MULTILIB := first
 
-TARGET_VENDOR_PROP += device/redroid/redroid.prop
+TARGET_VENDOR_PROP += device/trustlydroid/redroid.prop
 
 PRODUCT_PACKAGES += \
     libEGL_swiftshader \

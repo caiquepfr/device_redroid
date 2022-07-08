@@ -1,5 +1,5 @@
 ro.kernel.qemu=1
-ro.hardware=redroid
+ro.hardware=trustlydroid
 
 # disable ueventd cold-boot for performance
 ro.cold_boot_done=true
